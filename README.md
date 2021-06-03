@@ -1,22 +1,25 @@
 # Golang study record
 
+
 ## Execution and compilation
 Described in hello.go
 
-### Run the source file
+### run the source file
 To run the source directly, enter the following command.
 
-```
+```bash:
 $ go run sample.go
 ```
 
-### Compile and run
+### compile and run
 
-```
+```bash:
 $ go build sample.go
 $ ./sample
 ```
-## print
+
+
+## Print
 Described in print.go
 
 ### fmt.Print
@@ -31,7 +34,7 @@ with line breaks, with space, no format
 
 no line breaks, no space, with format
 
-#### List of format types
+#### format types
 
 | format | description |
 | :----- | :---------- |
@@ -51,3 +54,50 @@ no line breaks, no space, with format
 | %p     | pointer |
 
 
+## Variable
+Described in variable.go
+
+### var
+var name type
+
+```go:
+var box int
+box = 123
+```
+
+can be omitted as follows.
+
+```go:
+var box int = 123
+```
+
+if the type is clear
+
+```go:
+var box = 123
+```
+
+if you write without using var, it will be as follows.
+
+```go:
+box := 123
+box1, box2 := 123, "string"
+```
+
+but, this doesn't work
+
+```go:
+box int := 123
+```
+
+### constant
+const name
+
+```go:
+const BOX = 123
+```
+
+Usually the type is omitted.
+
+
+##
