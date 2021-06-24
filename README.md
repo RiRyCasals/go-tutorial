@@ -100,4 +100,16 @@ const BOX = 123
 Usually the type is omitted.
 
 
-##
+## Comment out and semicolon
+
+```go:
+// comment out
+
+/*
+ * comment out
+*/
+```
+
+Usually the semicolon is omitted.
+
+

@@ -20,13 +20,9 @@ func main(){
     fmt.Print(i1, i2, i3, i4, i5, i6, "\n")
     fmt.Print(name, age, "\n")
 
+    var f1 
+    f1 = (i1)
 
-    const J1 = "constant"
+    fmt.Print(f1, "\n")
 
-    const (
-        J2 = 123
-        J3 = 456
-    )
-
-    fmt.Print(J1, J2, J3, "\n")
 }
