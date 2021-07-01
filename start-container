@@ -1,0 +1,1 @@
+docker container run -it --mount type=bind,src=$(pwd),dst=/go/src/ go/tutorial:latest

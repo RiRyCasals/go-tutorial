@@ -1,3 +1,3 @@
 FROM golang:latest
-WORKDIR /home/work/
+WORKDIR /go/src/
 CMD ["bash"]

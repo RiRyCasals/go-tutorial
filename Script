@@ -1,1 +1,0 @@
-sudo docker container run -it --mount type=bind,src=/home/riry/WorkSpace/go-tutorial,dst=/home/work/ go:tutorial
